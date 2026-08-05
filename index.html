@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop của tôi</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🛍️ SHOP CỦA TÔI</h1>
+
+        <nav>
+            <a href="#">Trang chủ</a>
+            <a href="#products">Sản phẩm</a>
+            <a href="#contact">Liên hệ</a>
+            <span>🛒 Giỏ hàng: <b id="cart-count">0</b></span>
+        </nav>
+    </header>
+
+
+    <section class="banner">
+        <h2>Chào mừng đến với Shop</h2>
+        <p>Sản phẩm chất lượng - Giá tốt</p>
+    </section>
+
+
+    <section id="products">
+
+        <h2>Sản phẩm</h2>
+
+        <div class="products">
+
+            <div class="product">
+                <div class="product-image">👕</div>
+
+                <h3>Áo thời trang</h3>
+
+                <p class="price">150.000đ</p>
+
+                <button onclick="addToCart()">
+                    Thêm vào giỏ
+                </button>
+            </div>
+
+
+            <div class="product">
+                <div class="product-image">👖</div>
+
+                <h3>Quần thời trang</h3>
+
+                <p class="price">250.000đ</p>
+
+                <button onclick="addToCart()">
+                    Thêm vào giỏ
+                </button>
+            </div>
+
+
+            <div class="product">
+                <div class="product-image">👟</div>
+
+                <h3>Giày thể thao</h3>
+
+                <p class="price">500.000đ</p>
+
+                <button onclick="addToCart()">
+                    Thêm vào giỏ
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+
+        <h2>Liên hệ</h2>
+
+        <p>Email: shop@example.com</p>
+
+        <p>Điện thoại: 0123 456 789</p>
+
+    </section>
+
+
+    <footer>
+        <p>© 2026 Shop của tôi</p>
+    </footer>
+
+
+    <script src="scrip.js"></script>
+
+</body>
+</html>
